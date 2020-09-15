@@ -1,0 +1,16 @@
+.small {
+    width: 25%;
+    margin: 10px;
+}
+
+#form {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#form input {
+    max-width: 50%;
+}
