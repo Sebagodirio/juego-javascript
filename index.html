@@ -11,22 +11,32 @@
 </head>
 
 <body>
-    <h1>Juego en Javascript</h1>
-
-    <form action="" name="form" id="form">
-
-        <input type="number" id="num1">
-        <input type="number" id="num2">
-        <input type="number" id="num3">
-        <input type="number" id="num4">
-
-        <input type="submit" value="Enviar" class="btn btn-primary bb">
-    </form>
-
+    <header>
+        <h1>Acerta los numeros!</h1>
+        <div class="alert alert-dark" role="alert">
+            <spam> Deberas acertar 4 numeros del 0 al 10 inclusives, acertando numero y posicion.</spam>
+        </div>
+    </header>
+    <div class="box">
+        <form action="" name="form" id="form">
+            <div class="d-form">
+                <input type="number" id="num1" name="num1">
+                <input type="number" id="num2" name="num2">
+                <input type="number" id="num3" name="num3">
+                <input type="number" id="num4" name="num4">
+            </div>
+            <div class="button">
+                <input type="submit" value="Intentar" class="btn btn-primary" name="send">
+                <a href="" id="again" class="btn btn-outline-primary">Reiniciar</a>
+            </div>
+        </form>
+    </div>
     <div id="content">
 
     </div>
-    <script src="app.js"></script>
+
+    <script src="app.js">
+    </script>
 </body>
 
 </html>

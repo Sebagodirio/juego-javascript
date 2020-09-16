@@ -1,6 +1,18 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .small {
     width: 25%;
     margin: 10px;
+    margin-left: 37%;
 }
 
 #form {
@@ -13,4 +25,46 @@
 
 #form input {
     max-width: 50%;
+}
+
+h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+.d-form {
+    display: flex;
+    justify-content: center;
+}
+
+.d-form input {
+    width: 10%;
+    margin: 1%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button input {
+    margin: 1%;
+}
+
+.button a {
+    margin: 1%;
+}
+
+.alert-dark {
+    text-align: center;
+}
+
+.is-invalid {
+    border: 1px solid red;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
