@@ -98,7 +98,7 @@ var match = () => {
             wrong++
         }
     }
-    console.log(myArray)
+    console.log(`Tu intento ${myArray[0]} ${myArray[1]} ${myArray[2]} y ${myArray[3]} en ese orden`)
 
     results(good, regular, wrong)
 }
