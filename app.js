@@ -11,8 +11,8 @@ var tries = 0
 /* 
  *Events
  */
-var reiniciar = document.querySelector('#again')
-reiniciar.addEventListener('click', (e) => {
+var reset = document.querySelector('#again')
+reset.addEventListener('click', (e) => {
     e.preventDefault()
     var content = document.querySelector('#content')
     var winner = document.querySelector('.winner')
