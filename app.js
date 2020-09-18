@@ -16,6 +16,10 @@ reset.addEventListener('click', (e) => {
     e.preventDefault()
     var content = document.querySelector('#content')
     var winner = document.querySelector('.winner')
+
+    var disabled = document.querySelector('input[name=send]')
+    disabled.removeAttribute('disabled')
+    console.clear()
     removeChilds(content)
     removeValues()
     var endgame = document.createElement('div')
@@ -133,6 +137,9 @@ var results = (good, regular, wrong) => {
     if (good == 4) {
         goodEl.textContent = `Felicitaciones, ganaste! Intentos: ${tries}`
         goodEl.classList.add('winner')
+
+        var winner = document.querySelector('input[name=send]')
+        winner.setAttribute('disabled', true)
 
     }
 }
